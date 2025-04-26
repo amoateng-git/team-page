@@ -1,0 +1,99 @@
+body{
+margin: 0;
+font-family: Arial,  sans-serif;
+background-color:#f7f7f7;
+text-align: center;
+height: 100vh;
+width: 100%;
+
+}
+.team-section{
+    color: #fbb030;
+    margin: 10px 0 0;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.team-section h1{
+    font-size: 2rem;
+    margin: 5px 0 40px;
+    font-weight: bold;
+    color: #111;
+}
+.highlight{
+    color: rgb(231, 231, 39);
+}
+
+.card{
+    width: 500px;
+    background: rgb(77, 72, 72);
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0,0,0.1);
+    overflow: hidden;
+    border-radius: 40px;
+}
+.card img{ 
+    
+    width: 100%;
+    height: auto;
+
+}
+.socials{
+    font-size: larger;
+    margin-top: -25px;
+    display: block;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(253, 254, 255);
+}
+.socials a{
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav{
+    background:gray ;
+    display: flex;
+    margin: 5px;
+    padding: 0.5rem;
+    font-family: Arial,  sans-serif;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+nav ul li a{
+    color: #f7f7f7;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    transition: .8s;
+
+}
+nav ul li a:hover{
+background-color: #544f4f;
+padding: 1rem;
+}
+.info{
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.info h2{
+    margin: 0;
+    font-size: 1.2rem;
+
+}
+.info p{
+    margin-top: 0;
+    color: gray;
+}
